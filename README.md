@@ -77,7 +77,7 @@ Here, $s_{\mathrm{sig}}$ is the ECDSA signature scalar, distinct from the commit
 
 ## Status
 
-Still cooking 🍳. Active development is underway on end-to-end integration, performance tuning, and hardware harness validation.
+Still cooking 🍳.  to build end-to-end integration, performance tuning, and hardware harness validation.
 
 ## License
 
