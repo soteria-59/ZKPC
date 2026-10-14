@@ -1,0 +1,28 @@
+[package]
+name = "zkpc-circuits"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zkpc-verifier = { path = "../zkpc-verifier" }
+bincode = "1.3"
+zkpc-core = { path = "../zkpc-core" }
+anyhow = { workspace = true }
+bellpepper-core = "0.4"
+bellpepper = "0.4"
+vega-prover = { path = "../vega-prover" }
+halo2curves = { version = "0.10.0", features = ["bits"] }
+ff = "0.13.0"
+p256 = "0.13.2"
+num-bigint = "0.4"
+sha2 = "0.10"
+
+[dev-dependencies]
+num-bigint = "0.4"
+halo2curves = "0.10.0"
+p256 = { version = "0.13.2", features = ["ecdsa"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+hex = "0.4"
+sha2 = "0.10"
+rand_core = { version = "0.6", features = ["std"] }
