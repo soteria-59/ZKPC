@@ -1,0 +1,4 @@
+[submodule "vega-prover"]
+	path = vega-prover
+	url = https://github.com/soteria-59/vega-prover
+	branch = zkpc

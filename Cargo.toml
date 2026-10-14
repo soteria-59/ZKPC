@@ -1,0 +1,25 @@
+[workspace]
+resolver = "2"
+members = [
+    "vega-prover",
+    "zkpc-circuits",
+    "zkpc-core",
+    "zkpc-agent",
+    "zkpc-cli",
+    "zkpc-ea",
+    "zkpc-prover",
+    "zkpc-sdk",
+    "zkpc-testkit",
+    "zkpc-verifier",
+]
+exclude = [
+    "external",
+]
+
+[workspace.dependencies]
+anyhow = "1.0"
+tracing = "0.1"
+
+[profile.release]
+debug = 1
+lto = "fat"

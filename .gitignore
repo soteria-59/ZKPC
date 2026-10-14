@@ -1,0 +1,6 @@
+target/
+external/
+tools/
+REMEDIATION_RESOLUTION.md
+attestation-credential-build-doc.md
+agent-architecture.md

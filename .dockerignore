@@ -1,0 +1,5 @@
+target/
+.git/
+external/
+*/target/
+vega-prover/target/
