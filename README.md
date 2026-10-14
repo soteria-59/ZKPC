@@ -23,7 +23,7 @@ P_{\mathrm{svc}} = [s]P_{\mathrm{base}}
 $$
 
 $$
-P_{\mathrm{base}} = \operatorname{hash\_to\_curve}(\mathrm{service\_id})
+P_{\mathrm{base}} = \mathrm{hash\_to\_curve}(\mathrm{service\_id})
 $$
 
 The construction uses RFC 9380 hash-to-curve with Simplified SWU on P-256.
