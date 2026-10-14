@@ -1,0 +1,10 @@
+[package]
+name = "zkpc-verifier"
+version = "0.1.0"
+edition = "2021"
+[dependencies]
+zkpc-core = { path = "../zkpc-core" }
+sha2 = "0.10"
+rand = "0.8"
+p256 = { version = "0.13", features = ["ecdsa"] }
+hex = "0.4"
