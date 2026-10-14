@@ -1,6 +1,5 @@
 # ZKPC
 
-**Zero-Knowledge Proofs for Hardware-Bound Credentials**
 
 ZKPC explores using zero-knowledge proofs to verify hardware-bound credentials without exposing the device's hardware public key to the verifier.
 
