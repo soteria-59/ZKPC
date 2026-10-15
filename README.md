@@ -80,4 +80,4 @@ Still cooking 🍳.  to build end-to-end integration, performance tuning, and ha
 
 ## License
 
-Apache License 2.0. See `LICENSE`.
+Apache License 2.0.
